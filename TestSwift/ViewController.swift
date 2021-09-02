@@ -17,5 +17,10 @@ class ViewController: UIViewController {
     func setupView() {
         view.backgroundColor = .systemYellow
     }
+    
+    func setupHeirary() {
+        let ui = UIView()
+        view.addSubview(ui)
+    }
 }
 
